@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background: ${(props) => props.theme["color-background"]};
+    background: ${({ theme }) => theme.colors["color-background"]};
     color: ${(props) => props.theme["text-base"]};
     -webkit-font-smoothing: antialiased;
     font-family: "Poppins", sans-serif;
