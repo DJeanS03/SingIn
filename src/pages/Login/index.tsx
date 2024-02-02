@@ -11,10 +11,13 @@ export function Login() {
         <LoginContent>
           <h1>Login</h1>
           <Input leftIcon={<FaAt />} placeholder="Enter your Email" />
+
+          
           <Input
             leftIcon={<GiPadlock />}
             rightIcon={<IoEyeSharp />}
             placeholder="Enter your Password"
+            type="password"
           />
         </LoginContent>
       </LoginContainer>
